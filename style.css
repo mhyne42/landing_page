@@ -1,0 +1,151 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+.header,
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.nav,
+.footer {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+.title {
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.main-image {
+    width: 350px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+.info img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.main-sign {
+    background: #3882F6;
+    border: 1px solid royalblue;
+    color: white;
+    padding: 15px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+ul {
+    display: flex;
+    gap: 42px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.modal {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding: 50px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.randominfo {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 90px;
+    padding-bottom: 30px;
+}
+
+.author {
+    font-weight: bold;
+    float: right;
+}
+
+.signclick {
+    color: white;
+    display: flex;
+    background-color: #3882F6;
+    padding: 30px;
+    margin: 40px;
+    border-radius: 8px;
+}
+
+.end-modal {
+    padding-right: 20px;
+}
+
+.signup {
+    background: #3882F6;
+    border: 1px solid white;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
